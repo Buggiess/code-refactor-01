@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* changed semantics so no class was needed */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,6 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
 
 header nav {
     padding-top: 15px;
@@ -59,6 +61,7 @@ p {
     font-size: 16px;
 }
 
+/* changed semantics so no class was needed */
 figure {
     height: 800px;
     width: 100%;
@@ -78,12 +81,14 @@ figure {
     margin-left: 25px;
 }
 
+/* changed semantics so no class was needed */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* changed semantics so no class was needed */
 aside {
     margin-right: 20px;
     padding: 22px;
@@ -95,6 +100,7 @@ aside {
     background-color: #2a607c;
 }
 
+/* combined to DYE */
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
@@ -115,6 +121,7 @@ aside article p {
     text-align: center;
 }
 
+/* combined to DYE */
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -133,6 +140,7 @@ section article h2 {
     font-size: 36px;
 }
 
+/* changed semantics so no class was needed */
 footer {
     padding: 30px;
     clear: both;
