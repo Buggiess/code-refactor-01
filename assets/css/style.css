@@ -39,19 +39,20 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    border-bottom: 3px dotted;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    border-bottom: 3px dotted;
+    padding: 2px;
 }
 
 a:hover {
     background-color: #d9dcd6;
     color: #2a607c;
-    padding: 3px;
-    display: flex;
+    border-radius: 5px;
+    transition: 250ms;
 }
 
 p {
@@ -85,7 +86,7 @@ section {
 
 aside {
     margin-right: 20px;
-    padding: 40px;
+    padding: 22px;
     clear: both;
     float: right;
     width: 20%;
